@@ -357,7 +357,8 @@ h3{
     padding: 18px 0;
 }
 
-.footer span{
+.footer-span{
+    margin-bottom: 0;
     color: #777;
     font-weight: 300;
     font-size: 14px;
