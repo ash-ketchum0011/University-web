@@ -25,7 +25,6 @@ nav img {
 }
 
 .nav-links {
-    flex: 1;
     text-align: right;
 }
 
@@ -102,33 +101,26 @@ nav .fa{
     width: 20px;
     display: none;
 }
-@media (max-width: 700px){
+@media (max-width: 681px){
 
     nav ul{
-        position: absolute;
-        top: 70px;
-        left: 0;
-        background: #555;
-        width: 100%;
+        border: 2px solid;
+        position: relative;
+        text-align: center;
+        top: 90px;
+        right: 80px;
         max-height: 0;
         overflow: hidden;
         transition: 0.5s;
     }
-    nav ul li{
-        border: 2px solid white;
-        display: block;
-        margin-right: 25px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 15px;
-    }
 
     .nav-links ul li a{
+        font-size: 10px;
         color: #fff;
     }
 
     .menu-icon{
-        display: block;
+        display: inline-block;
         cursor: pointer;
     }
 }
@@ -333,11 +325,14 @@ h3{
     padding: 0;
 }
 
-@media(max-width: 700px){
+@media(max-width: 540px){
     .cta h1{
         font-size: 24px;
     }
-}
+    .text-box h1{
+        font-size: 30px;
+    }
+    }
 
 .footer{
     width: 100%;
