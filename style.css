@@ -101,14 +101,13 @@ nav .fa{
     width: 20px;
     display: none;
 }
-@media (max-width: 681px){
+@media (max-width: 700px){
 
     nav ul{
-        border: 2px solid;
-        position: relative;
+        position: absolute;
         text-align: center;
         top: 90px;
-        right: 80px;
+        right: 0px;
         max-height: 0;
         overflow: hidden;
         transition: 0.5s;
@@ -325,7 +324,7 @@ h3{
     padding: 0;
 }
 
-@media(max-width: 540px){
+@media(max-width: 700px){
     .cta h1{
         font-size: 24px;
     }
